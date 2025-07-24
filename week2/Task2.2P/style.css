@@ -1,0 +1,28 @@
+body { 
+  font-family: sans-serif; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 50px; 
+  background: #051a30;
+}
+
+.calculator-box {
+  background: #e18114;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thanks{
+    text-align: center;
+    margin-bottom: auto;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form { display: flex; gap: 10px; }
+#result { margin-top: 20px; font-weight: bold; }
