@@ -23,7 +23,7 @@ document.getElementById('calcForm').addEventListener('submit', async function(e)
       thanksMsg.style.display = 'none';
     }
   } catch {
-    resDiv.textContent = 'Error: Could not connect to server.';
+    resDiv.textContent = 'Error: Could not connect to server, please try again later!.';
     welcomeMsg.style.display = '';
     thanksMsg.style.display = 'none';
   }
