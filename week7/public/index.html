@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.IO Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #number {
+            font-size: 2em;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Random Number from Server:</h1>
+    <!-- This element will display the random number -->
+    <p id="number">-</p>
+
+    <!-- Load socket.io.js from the server FIRST -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Then load your custom script -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
